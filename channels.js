@@ -1,9 +1,6 @@
 const channels = [
-  {name:"Gazi TV (GTV) - Live Cricket", url:"https://live.gtv.com.bd/hls/gtv.m3u8"},
-  {name:"T Sports HD - Live", url:"https://tsports.cdn.jagobd.com/tsports/live.m3u8"},
-  {name:"BTV National", url:"https://btv.gov.bd/live/stream.m3u8"},
-  {name:"Channel i", url:"https://live.channeli.com.bd/stream.m3u8"},
-  {name:"Jamuna TV", url:"https://live.jamuna.tv/stream.m3u8"}
+  {name:"১০০০+ HD চ্যানেল (বাংলা+স্পোর্টস+মুভি)", 
+   url:"https://iptv-org.github.io/iptv/index.m3u"}
 ];
 
 let html = '';
