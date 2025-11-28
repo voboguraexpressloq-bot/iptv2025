@@ -1,0 +1,7 @@
+body{margin:0;background:#000;color:white;font-family:Arial;}
+.header{background:linear-gradient(45deg,#e91e63,#9c27b0);padding:40px;text-align:center;}
+h1{font-size:2.8em;margin:0;}
+input{width:94%;padding:18px;margin:20px auto;display:block;border-radius:15px;border:none;font-size:20px;}
+#channelList{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;padding:20px;}
+.channel{background:#222;padding:30px;border-radius:20px;text-align:center;cursor:pointer;font-size:18px;transition:0.3s;}
+.channel:hover{background:#e91e63;transform:scale(1.1);}
