@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Free IPTV 2025 - 8000+ HD</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+<h1>Free IPTV 2025</h1>
+<p>৮০০০+ এইচডি চ্যানেল • কোনো অ্যাপ লাগবে না</p>
+</div>
+
+<input type="text" id="search" placeholder="চ্যানেল খুঁজুন..." onkeyup="searchChannel()">
+
+<div id="channelList"></div>
+
+<div id="player" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.98);z-index:9999;text-align:center;">
+<video id="video" controls autoplay style="width:95%;max-width:900px;margin-top:50px;border:8px solid #e91e63;border-radius:20px;"></video>
+<button onclick="closePlayer()" style="position:absolute;top:20px;right:20px;background:red;color:white;border:none;width:60px;height:60px;border-radius:50%;font-size:40px;cursor:pointer;">X</button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script src="channels.js"></script>
+<script src="player.js"></script>
+</body>
+</html>
